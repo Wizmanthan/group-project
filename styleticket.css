@@ -1,0 +1,71 @@
+body{
+font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 48;
+
+    color: rgb(27, 7, 117);
+}
+
+.heroticket{
+    background-color: rgb(111, 111, 247);
+    height: 200px;
+    
+    padding: 50px;
+
+}
+
+.heroticket>p{
+    color: rgb(227, 239, 255);
+    font-size: 40;
+    width: 50%;
+}
+
+.ticketOptions{
+    margin: 40px 60px;
+
+    display: flex;
+    flex-direction: row;
+
+    padding-left: auto;
+    padding-right: auto;
+
+
+}
+
+.option1{
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(220, 215, 250);
+    height: 320px;
+
+    border: 2px solid rgb(60, 0, 156);
+    
+    margin-right: 20px;
+    padding: 30px 15px;
+
+    align-items: center;
+
+    
+}
+
+.options2{
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(220, 215, 250);
+    height: 320px;
+
+    border: 2px solid rgb(60, 0, 156);
+
+    margin-left: 20px;
+    padding: 30px 15px;
+
+    align-items: center;
+
+}
+
+
