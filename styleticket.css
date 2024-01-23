@@ -35,12 +35,52 @@ h1{
 
 }
 
+.ticketOptions button{
+
+    padding: 5px 10px;
+    width: 140px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 16px;
+
+    border-radius: 40px;
+
+    color: rgb(45, 71, 128);
+    
+    border: 0.2px solid rgb(45, 71, 128) ;
+
+    background-color: rgb(197, 215, 255);
+    
+}
+
+.cardicon{
+
+    font-size: 60px;
+    color: rgb(85, 55, 192);
+}
+
+.ticketOptions h2{
+    font-size: 30px;
+    color: rgb(85, 55, 192);
+}
+
+.ticketOptions p{
+    font-size: 30px;
+    margin-top: 2px;
+    font-weight: 800;
+
+}
+
+
+
+
+
 .option1{
     display: flex;
     flex-direction: column;
 
     background-color: rgb(220, 215, 250);
-    height: 320px;
+    /* height: 320px; */
 
     border: 2px solid rgb(60, 0, 156);
     
@@ -52,12 +92,13 @@ h1{
     
 }
 
+
 .options2{
     display: flex;
     flex-direction: column;
 
     background-color: rgb(220, 215, 250);
-    height: 320px;
+    /* height: 320px; */
 
     border: 2px solid rgb(60, 0, 156);
 
@@ -67,5 +108,12 @@ h1{
     align-items: center;
 
 }
+
+ul > li {
+    list-style: none;
+    width: 90%;
+}
+
+/* this is a change 002 */
 
 
